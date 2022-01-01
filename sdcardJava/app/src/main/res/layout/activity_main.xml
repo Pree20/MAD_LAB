@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_margin="20dp" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="30dp" android:singleLine="true" android:id="@+id/editText"/>
+
+    <Button android:layout_margin="10dp" android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="30dp" android:id="@+id/button" android:text="Write Data"/>
+
+    <Button android:layout_margin="10dp" android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="30dp" android:id="@+id/button2" android:text="Read data"/>
+
+    <Button android:layout_margin="10dp" android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="30dp" android:id="@+id/button3" android:text="Clear"/>
+
+</LinearLayout>
