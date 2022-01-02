@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="85dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="number"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="124dp" />
+
+        <EditText
+            android:id="@+id/editTextNumber2"
+            android:layout_width="81dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:inputType="number"
+            tools:layout_editor_absoluteX="115dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="105dp"
+            android:layout_height="42dp"
+            android:text="Result"
+            tools:layout_editor_absoluteX="249dp"
+            tools:layout_editor_absoluteY="126dp" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="209dp"
+            android:onClick="calculate"
+            />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="266dp"
+            android:onClick="calculate"
+            />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            tools:layout_editor_absoluteX="260dp"
+            tools:layout_editor_absoluteY="209dp"
+            android:onClick="calculate"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            tools:layout_editor_absoluteX="260dp"
+            tools:layout_editor_absoluteY="266dp"
+            android:onClick="calculate"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
